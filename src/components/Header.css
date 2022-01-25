@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px;
+    margin-bottom: 50px;
+  }
+  
+  .header__number {
+    color: #8b7eac;
+    font-size: 12px;
+  }
+  
+  .headers__menu {
+    color: #8e80a9;
+  }
