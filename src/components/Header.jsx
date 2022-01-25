@@ -5,7 +5,7 @@ export default function Header() {
         return (
             <header className="header">
                 <svg
-                    class="header__menu"
+                    className="header__menu"
                     width="30"
                     height="13"
                     viewBox="0 0 30 13"
