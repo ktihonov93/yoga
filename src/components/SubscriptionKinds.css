@@ -1,0 +1,25 @@
+.subscription-kinds{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subscription-kinds__name{
+    color: #8e80a9;
+}
+
+.subscription-kinds__durations{
+    margin: 10px 0 30px 0;
+}
+
+.subscription-kinds__durations span{
+    color: #e65c7b;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 7px;
+    padding:1px;
+}
+
+.subscription-kinds__durations span:nth-child(1){
+    border-bottom: 1px solid;
+}

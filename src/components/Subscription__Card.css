@@ -1,0 +1,31 @@
+.subscription__card{
+    margin-bottom: 30px;
+    width: 250px;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.subscription__card-name{
+    color: #8E80A9;
+}
+
+.subscription__card p:nth-child(2){
+    color: #e65c7b;
+    font-size: 10px;
+}
+
+.subscription__card p:nth-child(3){
+    color: #8E80A9;
+    font-weight: bold;
+}
+
+.subscription__card-button{
+    color: white;
+    background-color: #8E80A9;
+    padding: 10px 25px 10px 25px;
+    cursor: pointer;
+    border: none;
+    font-size: 11px;
+    margin: 10px;
+}
