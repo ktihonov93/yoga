@@ -1,4 +1,5 @@
 import Button from './Button'
+import ReviewerCard from './ReviewerCard'
 import './Reviews.css'
 
 export default function Reviews() {
@@ -18,6 +19,7 @@ export default function Reviews() {
                     и качественно расслабиться.
                     Спасибо инструктору Марине.
                 </p>
+                <ReviewerCard />
             </article>
             <div className='page-switcher'>
                 <Button arrowSize="5px" containerWidth="31px" height="16px" transform="rotate(180deg)" backgroundColor="none" border="1px solid #8E80A9" borderLeft="1px solid #8E80A9" borderBottom="1px solid #8E80A9" />
