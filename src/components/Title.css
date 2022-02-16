@@ -26,26 +26,6 @@
     height: 26px;
   }
   
-  .title__button-arrow-container {
-    --container-width: 30px;
-    width: var(--container-width);
-    height: 100%;
-    background-color: #e65c7b;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .title__button-arrow {
-    --arrow-size: 7px;
-    width: var(--arrow-size);
-    height: var(--arrow-size);
-    border-left: 1px solid white;
-    border-bottom: 1px solid white;
-    transform: rotate(-135deg);
-    margin-left: calc(var(--arrow-size) * 1.4 / (-4));
-  }
-  
   .title__button-text {
     font-size: 10px;
     margin-left: 5px;

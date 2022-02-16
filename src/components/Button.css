@@ -1,0 +1,23 @@
+.custom-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.custom-button__arrow-container {
+    --container-width: 30px;
+    width: var(--container-width);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custom-button__arrow {
+    --arrow-size: 7px;
+    width: var(--arrow-size);
+    height: var(--arrow-size);
+    transform: rotate(-135deg);
+    margin-left: calc(var(--arrow-size) * 1.4 / (-4));
+  }
