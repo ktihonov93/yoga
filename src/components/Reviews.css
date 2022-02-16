@@ -1,0 +1,28 @@
+.reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviews-header{
+    color: #8E80A9;
+}
+
+.reviewer-card{
+    width: 250px;
+    background-color: white;
+    font-size: 10px;
+    color: #8E80A9;
+    padding: 16px;
+}
+
+.page-switcher{
+    display: flex;
+    align-items: center;
+}
+
+.page-number{
+    padding: 10px;
+    color: #8E80A9;
+    font-size: 15px;
+}

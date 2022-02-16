@@ -1,6 +1,7 @@
 import YogaKinds from './YogaKinds';
 import SubscriptionKinds from './SubscriptionKinds';
 import Team from './Team';
+import Reviews from './Reviews';
 
 import './Main.css'
 
@@ -11,6 +12,7 @@ export default function Main() {
       <YogaKinds />
       <SubscriptionKinds />
       <Team />
+      <Reviews />
   </main>
   );
 }

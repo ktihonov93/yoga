@@ -2,7 +2,7 @@ import './Teammate__Card.css';
 
 export default function Teammate__Card({ margin }) {
     return (
-        <div style={{margin: `${margin}`}} className='teammate-Card'>
+        <article style={{margin: `${margin}`}} className='teammate-Card'>
             <img src="https://i.ibb.co/JK3Crg2/image.png" alt="image"></img>
             <div className='teammate-Card__description'>
                 <p>Инструктор<br></br>Серёжа Попов</p>
@@ -19,6 +19,6 @@ export default function Teammate__Card({ margin }) {
             </div>
 
 
-        </div>
+        </article>
     )
 }
