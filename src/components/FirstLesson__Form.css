@@ -1,0 +1,36 @@
+.firstLesson-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://i.ibb.co/LzCCmK3/image.jpg);
+}
+
+.firstLesson-form h3{
+    font-weight: bold;
+    color: #8E80A9;
+    margin: 65px 0 0 35px;
+    font-size: 17px;
+}
+
+.firstLesson-form button{
+    background-color: #E65C7B;
+    width: 250px;
+    height: 56px;
+    border: 0;
+    margin: 20px 0 70px 0;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.firstLesson-form form input{
+    background-color: inherit;
+    width: 250px;
+    margin: 15px 0 15px 0;
+    border: none;
+    border-bottom: 1px solid #8E80A9;
+    padding: 10px 0 10px 0;
+    color: #bdb4d3;
+    font-weight: bold;
+}
