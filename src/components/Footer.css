@@ -1,0 +1,37 @@
+.footer{
+    background-color: #8373A1;
+    color: white;
+    font-size: 12px;
+    color: #FFFFFF;
+    padding-top: 30px;
+    line-height: 2;
+}
+
+.footer__description{
+    margin: 0;
+    width: 250px;
+}
+
+.footer__description li{
+    list-style: none;
+    padding: 10px 0 10px 0;
+}
+.footer__media{
+    display: flex;
+    margin-left: 35px;
+}
+
+.footer__media a{
+    margin: 20px 25px 20px 0;
+}
+
+.footer__copyright p{
+    margin: 0 0 0 35px;
+    color: #FFFFFF;
+    opacity: 50%;
+}
+
+.footer__copyright{
+    padding-bottom: 50px;
+    line-height: 3;
+}
